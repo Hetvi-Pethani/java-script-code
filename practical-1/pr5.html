@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>find circle area</title>
+</head>
+
+<body>
+
+    <!--Write a javascript Program to find circle area.(compulsory user input)(formula = 3.14 * r * r) -->
+
+
+    <table width="500px" cellpadding="2" border="1">
+        <tr>
+            <td>radius : </td>
+            <td id="rad"></td>
+        </tr>
+        <tr>
+            <td>Circle Area : </td>
+            <td id="area"></td>
+        </tr>
+    </table>
+
+
+    <script>
+
+        let r = parseFloat(prompt("Enter the radius:"));
+        rad = 3.14 * r * r;
+
+        document.getElementById("rad").innerHTML = r;
+        document.getElementById("area").innerHTML = rad;
+
+    </script>
+
+</body>
+
+</html>

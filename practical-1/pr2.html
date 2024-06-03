@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swapping of two variables</title>
+</head>
+
+<body>
+
+    <!--Write a javascript Program to perform a swapping of two variables. (compulsory user input)-->
+
+    <table width="500px" border="1" cellpadding="2">
+        <tr>
+            <td>A : </td>
+            <td id="val1"></td>
+        </tr>
+        <tr>
+            <td>B : </td>
+            <td id="val2"></td>
+        </tr>
+    </table>
+
+
+
+    <script>
+
+        let a = parseInt(prompt("Enter the value of A:"));
+        let b = parseInt(prompt("Enter the value of B:"));
+
+        a = a * b;
+        b = a / b;
+        a = a / b;
+
+        document.getElementById("val1").innerHTML = a;
+        document.getElementById("val2").innerHTML = b;
+
+    </script>
+
+</body>
+
+</html>

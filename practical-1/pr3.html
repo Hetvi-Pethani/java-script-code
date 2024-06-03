@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius to Fahrenheit</title>
+</head>
+
+<body>
+
+    <!-- Write a javascript program to convert temperature from degree Celsius to
+    Fahrenheit.(compulsory user input)
+    a. Formula :- C * (9/5) + 35 -->
+
+    <table width="500px" cellpadding="2" border="1">
+        <tr>
+            <td>Formula : </td>
+            <td id="c"></td>
+        </tr>
+    </table>
+
+
+    <script>
+
+        let a = parseFloat(prompt("Enter the degree Celsius:"));
+        c = a * 9 / 5 + 35;
+
+        document.getElementById("c").innerHTML = c;
+
+    </script>
+
+</body>
+
+</html>

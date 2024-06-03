@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> rate of interest</title>
+</head>
+
+<body>
+
+    <!--Write a javascript Program to find rate of interest.(compulsory user input)(p * r * n / 100) -->
+
+    <table width="500px" cellpadding="2" border="1">
+        <tr>
+            <td>p : </td>
+            <td id="p"></td>
+        </tr>
+        <tr>
+            <td>r : </td>
+            <td id="r"></td>
+        </tr>
+        <tr>
+            <td>n : </td>
+            <td id="n"></td>
+        </tr>
+        <tr>
+            <td>interest : </td>
+            <td id="interest"></td>
+        </tr>
+    </table>
+
+
+    <script>
+
+        let d = parseFloat(prompt("Enter the p:"));
+        let b = parseFloat(prompt("Enter the r:"));
+        let c = parseFloat(prompt("Enter the n:"));
+        interest = (d * b * c) / 100;
+
+        document.getElementById("p").innerHTML = d;
+        document.getElementById("r").innerHTML = b;
+        document.getElementById("n").innerHTML = c;
+        document.getElementById("interest").innerHTML = interest;
+
+    </script>
+
+</body>
+
+</html>
