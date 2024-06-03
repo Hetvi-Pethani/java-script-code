@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intrest</title>
+</head>
+
+<body>
+    <table width="500" border="1" cellpadding="10">
+        <tr>
+            <td>p :</td>
+            <td id="p"></td>
+        </tr>
+        <tr>
+            <td>r :</td>
+            <td id="r"></td>
+        </tr>
+        <tr>
+            <td>n :</td>
+            <td id="n"></td>
+        </tr>
+        <tr>
+            <td>intrest</td>
+            <td id="intrest"></td>
+        </tr>
+
+    </table>
+
+    <script>
+        let x = parseFloat(prompt("enter the p:"));
+        let y = parseFloat(prompt("enter the r:"));
+        let z = parseFloat(prompt("enter the n:"));
+
+        intrest = (x * y * z) / 100;
+
+        document.getElementById("p").innerHTML = x;
+        document.getElementById("r").innerHTML = y;
+        document.getElementById("n").innerHTML = z;
+        document.getElementById("intrest").innerHTML = intrest;
+    </script>
+</body>
+
+</html>

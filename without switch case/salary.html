@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary</title>
+</head>
+<body>
+
+
+    <table width="500" border="1" cellpadding="10">
+        <tr>
+            <td>salary :</td>
+            <td id="salary"></td>
+        </tr>
+        <tr>
+            <td>Total salary :</td>
+            <td id="total"></td>
+        </tr>
+
+    </table>
+
+    <script>
+        let a=parseFloat(prompt("enter your salary : "));
+        salary=a + (a * 0.10) + (a * 0.05)+(a*0.08);
+
+
+        document.getElementById("salary").innerHTML = a;
+        document.getElementById("total").innerHTML = salary;
+
+
+    </script>
+</body>
+</html>

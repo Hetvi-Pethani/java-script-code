@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+</head>
+<body>
+    <p id="add"></p>
+    <p id="sub"></p>
+    <p id="mul"></p>
+    <p id="div"></p>
+    <script>
+        let a = parseInt(prompt("enter of a :"));
+        let b = parseInt(prompt("enter of b :"));
+
+        document.getElementById("add").innerHTML = "a + b ="+(a + b);
+        document.getElementById("sub").innerHTML = "a - b ="+(a - b);
+        document.getElementById("mul").innerHTML = "a * b ="+(a * b);
+        document.getElementById("div").innerHTML = "a / b ="+(a / b);
+
+
+
+    </script>
+</body>
+</html>
