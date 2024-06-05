@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perstage</title>
+</head>
+<body>
+    <script>
+       let marks = parseInt(prompt("enter your marks:"));
+
+       switch(true){
+             case (marks >= 90 && marks <= 100) :
+                document.write("<h2> Grade is A </h2>");
+                break;
+
+            case (marks < 89 && marks > 80) :
+                document.write("<h2> Grade is B </h2>");
+                break;
+
+
+               case (marks < 79 && marks > 70) :
+                document.write("<h2> Grade is C </h2>");
+                break;
+
+                case (marks < 69 && marks > 60 ):
+                document.write("<h2> Grade is D </h2>");
+                break;
+
+                case (marks < 59 && marks > 34) :
+                document.write("<h2> Grade is E </h2>");
+                break;
+
+                default:
+                    document.write("enter your valid marks:");
+                break;
+
+       }
+
+
+
+
+    </script>
+</body>
+</html>

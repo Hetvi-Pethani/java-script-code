@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal</title>
+</head>
+
+<body>
+
+    <script>
+
+        let hour = parseInt(prompt("Enter the valid Time: "));
+        switch (true) {
+
+            case (hour >= 7 && hour < 12):
+                document.write("<h1> breakfast </h1>");
+                break;
+            case (hour >= 12 && hour < 15):
+                document.write("<h1> lunch </h1>");
+                break;
+            case (hour >= 18 && hour < 20):
+                document.write("<h1> dinner </h1>");
+                break;
+
+            default:
+                document.write("snack");
+                break;
+
+
+        }
+
+
+    </script>
+</body>
+
+</html>

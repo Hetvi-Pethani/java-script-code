@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>age</title>
+</head>
+<body>
+    <script>
+        let age = parseInt(prompt("enter your age:"));
+
+        switch (true) {
+            case (age >= 1 && age <= 10 ):
+                document.write("child");
+                break;
+
+            case (age > 17  && age > 30):
+                document.write("teneger");
+                break;
+            case (age > 30  && age > 70):
+                document.write("senior");
+                break;
+            default:
+                document.write("enter your valid age:");
+                break;
+        }
+
+    </script>
+</body>
+</html>

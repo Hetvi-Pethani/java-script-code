@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>renge</title>
+</head>
+
+<body>
+    <script>
+        let range = parseInt(prompt("enter your renge:"));
+
+        switch (true) {
+            case (range >= 1 && range <= 3):
+                document.write("Low");
+                break;
+
+            case (range >= 4 && range <= 7):
+                document.write("Medium");
+                break;
+            case (range >=8 && range <= 10):
+                document.write("Height");
+                break;
+            default:
+                document.write("enter your valid renge:");
+                break;
+        }
+
+    </script>
+</body>
+
+</html>

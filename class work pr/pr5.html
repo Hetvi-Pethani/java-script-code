@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>degree</title>
+</head>
+
+<body>
+    <script>
+        let deg = parseInt(prompt("enter your Degree:"));
+
+        switch (true) {
+            case (deg >= 42 && deg <= 45):
+                document.write("Summer");
+                break;
+
+            case (deg >30  && deg > 20):
+                document.write("Winter");
+                break;
+            case (deg >= 20  && deg > 10):
+                document.write("Monsoon");
+                break;
+            default:
+                document.write("enter your valid degree:");
+                break;
+        }
+
+    </script>
+
+</body>
+
+</html>
