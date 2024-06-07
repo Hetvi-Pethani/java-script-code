@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade</title>
+</head>
+
+<body>
+    <script>
+        let price = parseInt(prompt("enter your price:"));
+
+        if (price >= 2500 && price <= 3000) {
+            document.write("<h1>your discount 70%</h1>");
+        }
+        else if (price <= 2499 && price >= 2400) {
+            document.write("<h1>your discount 60%</h1>");
+        }
+        else if (price <= 2399 && price >= 2300) {
+            document.write("<h1>your discount 50%</h1>");
+        }
+        else if (price <= 2299 && price >= 2200) {
+            document.write("<h1>your discount 40%</h1>");
+        }
+        else if (price <= 2199 && price >= 2100) {
+            document.write("<h1>your discount 30%</h1>");
+        }
+        else if (price <= 2099 && price >= 2000){
+            document.write("<h1>your discount 20%</h1>");
+        }
+    </script>
+</body>
+
+</html>
