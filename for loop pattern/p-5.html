@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p-5</title>
+</head>
+
+<!-- * * * * * * * * * 
+ * * * * * * * 
+   * * * * * 
+     * * * 
+       *  -->
+
+
+<body>
+    <script>
+        let n = 5;
+        let a = parseInt(prompt("enter number of row:"));
+        for (let i = n; i >= 1; i--) {
+            let str = "* ";
+            let space = '  ';
+            console.log(space.repeat((n - i)) + str.repeat(i * 2 - 1));
+        }
+    </script>
+</body>
+
+</html>
