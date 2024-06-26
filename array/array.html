@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Array & its built-in function</title>
+</head>
+
+<body>
+    <script>
+        let fruits = ["Mango", "charry ", "orange "];
+        document.write("Your array is :- " + fruits + "<br><br>");
+
+        document.write("fruits[0] :- " + fruits[0] + "<br>");
+        document.write("fruits[1] :- " + fruits[1] + "<br>");
+        document.write("fruits[2] :- " + fruits[2] + "<br><br>");
+
+        let len = fruits.length;
+        document.write("Length of Array is :- " + len + "<br><br>");
+
+        let list = "<ul>";
+        for (let i = 0; i < len; i++) {
+            list += "<li>" + fruits[i] + "</li>";
+        }
+        list += "</ul>";
+        document.write(list);
+
+
+        // PUSH
+        fruits.push("banana ", "lichi ")
+        document.write("Add element of PUSH :- " + fruits + "<br><br>");
+
+
+        // POP
+        fruits.pop();
+        document.write("Remove element of POP :- ", fruits + "<br><br>");
+
+
+        // SHIFT
+        fruits.shift("kiwi");
+        document.write("Add element of SHIFT :- " + fruits + "<br><br>");
+
+
+        // UNSHIFT
+        fruits.unshift();
+        document.write("Remove element of UNSHIFT :- ", fruits + "<br><br>");
+
+        //SPLICE 
+        fruits.splice(2, 2, "Neha");
+        document.write("Add element of SPLICE :- ", fruits + "<br><br>");
+
+    </script>
+</body>
+
+</html>

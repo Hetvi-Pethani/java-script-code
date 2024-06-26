@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>number 1</title>
+</head>
+
+<body>
+
+    <!-- with parameter no return -->
+
+    <script>
+        function num(e, f, g, h) {
+            if (e > f) {
+                if (e > g) {
+                    if (e > h) {
+                        document.write("e number is max...");
+                    }
+                    else {
+                        document.write("h number is max...");
+                    }
+                }
+                else {
+                    if (g > h) {
+                        document.write("g number is max...");
+                    }
+                    else {
+                        document.write("h number is max...");
+                    }
+                }
+            }
+            else {
+                if (f > g) {
+                    if (f > h) {
+                        document.write("f number is max...");
+                    }
+                    else {
+                        document.write("h number is max...");
+                    }
+                }
+                else {
+                    if (g > h) {
+                        document.write("g number is max...");
+                    }
+                    else {
+                        document.write("h number is max...");
+                    }
+                }
+            }
+        }
+
+        let a = parseInt(prompt("Enter 1 number :- "));
+        let b = parseInt(prompt("Enter 2 number :- "));
+        let c = parseInt(prompt("Enter 3 number :- "));
+        let d = parseInt(prompt("Enter 4 number :- "));
+
+        document.write("1 number : " + a);
+        document.write(`<br>`);
+        document.write("2 number : " + b);
+        document.write(`<br>`);
+        document.write("3 number : " + c);
+        document.write(`<br>`);
+        document.write("4 number : " + d);
+        document.write(`<br>`);
+        let ans = num(a, b, c, d);
+    </script>
+</body>
+
+</html>

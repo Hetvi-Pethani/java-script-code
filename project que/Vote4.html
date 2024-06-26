@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>voting 4</title>
+</head>
+
+<body>
+
+    <!--  with parameter with return -->
+    <script>
+        function checkAge() {
+
+            if (age >= 18) {
+                return ("You can vote...");
+            }
+            else {
+                return ("You can not vote...");
+            }
+        }
+        let age = parseInt(prompt("Enter your age :- "));
+        let ans = checkAge(age);
+        document.write(ans);
+
+    </script>
+</body>
+
+</html>

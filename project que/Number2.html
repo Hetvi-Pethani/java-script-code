@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>number 2</title>
+</head>
+
+<body>
+
+    <!-- no parameter no return -->
+
+    <script>
+        function num() {
+            let e = parseInt(prompt("Enter 1 number :- "));
+            let f = parseInt(prompt("Enter 2 number :- "));
+            let g = parseInt(prompt("Enter 3 number :- "));
+            let h = parseInt(prompt("Enter 4 number :- "));
+
+            document.write("1st number : " + e);
+            document.write(`<br>`);
+            document.write("2nd number : " + f);
+            document.write(`<br>`);
+            document.write("3rd number : " + g);
+            document.write(`<br>`);
+            document.write("4th number : " + h);
+            document.write(`<br>`);
+            document.write(`<br>`);
+
+            if (e > f) {
+                if (e > g) {
+                    if (e > h) {
+                        document.write("e number is max...");
+                    }
+                    else {
+                        document.write("h number is max...");
+                    }
+                }
+                else {
+                    if (g > h) {
+                        document.write("g number is max...");
+                    }
+                    else {
+                        document.write("h number is max...");
+                    }
+                }
+            }
+            else {
+                if (f > g) {
+                    if (f > h) {
+                        document.write("f number is max...");
+                    }
+                    else {
+                        document.write("h number is max...");
+                    }
+                }
+                else {
+                    if (g > h) {
+                        document.write("g number is max...");
+                    }
+                    else {
+                        document.write("h number is max...");
+                    }
+                }
+            }
+        }
+
+        let ans = num();
+    </script>
+</body>
+
+</html>

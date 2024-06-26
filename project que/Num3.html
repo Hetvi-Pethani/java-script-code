@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 numbersof max 3</title>
+</head>
+<body>
+    <!-- no parameter with return -->
+    <script>
+        function num(){
+            let a = parseInt(prompt("Enter 1 number :- "));
+            let b = parseInt(prompt("Enter 2 number :- "));
+            let c = parseInt(prompt("Enter 3 number :- "));
+
+            document.write("A :- " + a + "<br><br>");
+            document.write("B :- " + b + "<br><br>");
+            document.write("C :- " + c + "<br><br>");
+
+            if (a > b) {
+                if (a > c) {
+                    document.write("a number is max...");
+                }
+                else {
+                    document.write("c number is max...");
+                }
+            }
+            else {
+                if (b > c) {
+                    document.write("b number is max...");
+                }
+                else {
+                    document.write("c number is max...");
+                }
+            }
+        }
+        let ans = num();
+        document.write(ans);
+    </script> 
+</body>
+</html>
